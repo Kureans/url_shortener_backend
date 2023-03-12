@@ -8,8 +8,8 @@ import { UrlModule } from './url/url.module';
 @Module({
   imports: [
     TypeOrmModule.forRoot({
-      type: 'mysql',
-      database: 'URL.mysql',
+      type: 'sqlite',
+      database: 'URL.sqlite',
       entities: [Url],
       synchronize: true,
     }),

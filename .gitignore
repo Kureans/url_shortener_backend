@@ -2,6 +2,9 @@
 /dist
 /node_modules
 
+# Local DB
+URL.sqlite
+
 # Logs
 logs
 *.log
